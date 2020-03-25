@@ -18,7 +18,7 @@ program main
   mat2(:,:) = 0d0
   write(*,*) "end matrix"
   call system_clock(t1)
-  do i = 1, 100
+  do i = 1, 1
     !mat2 = matrix_mult(num_element, mat,mat)
     mat2 = matmul(mat,mat)
     !call dgemm('N', 'N', num_element, num_element, num_element, 1d0, mat, num_element, mat, num_element, 0d0, mat2, num_element)

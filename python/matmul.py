@@ -4,7 +4,7 @@ import time
 N = 1000 # 下の表のNと一致
 ma = np.random.rand(N, N).astype(np.float64)
 t1 = time.time()
-for i in range (0, int(1E+2)):
+for i in range (0, int(1E+0)):
     np.dot(ma, ma)
 
 t2 = time.time()

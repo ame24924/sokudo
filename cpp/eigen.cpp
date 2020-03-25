@@ -22,7 +22,7 @@ int main(){
 
   std::cout << "start\n";
   auto func = [eigenmat](){
-        for(uint i = 1; i < 1E+2; ++i)
+        for(uint i = 0; i < 1E+0; ++i)
           auto m = eigenmat*eigenmat;
       };
 
